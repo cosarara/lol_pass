@@ -14,7 +14,7 @@ def main():
     template = cv2.imread('pass.png')
     h, w = template.shape[:2]
 
-    for i in range(10):
+    for _ in range(10):
         screen_rgb = pyautogui.screenshot()
         screen = cv2.cvtColor(np.array(screen_rgb), cv2.COLOR_RGB2BGR)
         result = cv2.matchTemplate(screen, template, cv2.TM_CCORR_NORMED)
