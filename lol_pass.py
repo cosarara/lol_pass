@@ -5,7 +5,6 @@ import time
 import subprocess
 
 def main():
-    import subprocess
     subprocess.Popen(["league_nopass"])
     time.sleep(15) # wait for league to start
 
