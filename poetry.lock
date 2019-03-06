@@ -1,0 +1,132 @@
+[[package]]
+category = "main"
+description = "An ultra fast cross-platform multiple screenshots module in pure python using ctypes."
+name = "mss"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+version = "4.0.2"
+
+[[package]]
+category = "main"
+description = "NumPy is the fundamental package for array computing with Python."
+name = "numpy"
+optional = false
+python-versions = ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*"
+version = "1.16.2"
+
+[[package]]
+category = "main"
+description = "Wrapper package for OpenCV python bindings."
+name = "opencv-python"
+optional = false
+python-versions = "*"
+version = "4.0.0.21"
+
+[package.dependencies]
+numpy = ">=1.14.5"
+
+[[package]]
+category = "main"
+description = "Python Imaging Library (Fork)"
+name = "pillow"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "5.4.1"
+
+[[package]]
+category = "main"
+description = "A cross-platform module for GUI automation for human beings. Control the keyboard and mouse from a Python script."
+name = "pyautogui"
+optional = false
+python-versions = "*"
+version = "0.9.41"
+
+[package.dependencies]
+Pillow = "*"
+PyTweening = ">=1.0.1"
+pygetwindow = "*"
+pymsgbox = "*"
+pyscreeze = "*"
+
+[[package]]
+category = "main"
+description = "A simple, cross-platform module for obtaining GUI information on application's windows."
+name = "pygetwindow"
+optional = false
+python-versions = "*"
+version = "0.0.4"
+
+[package.dependencies]
+pyrect = "*"
+
+[[package]]
+category = "main"
+description = "A simple, cross-platform, pure Python module for JavaScript-like message boxes."
+name = "pymsgbox"
+optional = false
+python-versions = "*"
+version = "1.0.6"
+
+[[package]]
+category = "main"
+description = "PyRect is a simple module with a Rect class for Pygame-like rectangular areas."
+name = "pyrect"
+optional = false
+python-versions = "*"
+version = "0.1.4"
+
+[[package]]
+category = "main"
+description = "A simple, cross-platform screenshot module for Python 2 and 3."
+name = "pyscreeze"
+optional = false
+python-versions = "*"
+version = "0.1.19"
+
+[package.dependencies]
+Pillow = "*"
+
+[[package]]
+category = "main"
+description = "Python X Library"
+name = "python-xlib"
+optional = false
+python-versions = "*"
+version = "0.25"
+
+[package.dependencies]
+six = ">=1.10.0"
+
+[[package]]
+category = "main"
+description = "A collection of tweening / easing functions."
+name = "pytweening"
+optional = false
+python-versions = "*"
+version = "1.0.3"
+
+[[package]]
+category = "main"
+description = "Python 2 and 3 compatibility utilities"
+name = "six"
+optional = false
+python-versions = ">=2.6, !=3.0.*, !=3.1.*"
+version = "1.12.0"
+
+[metadata]
+content-hash = "ff077ff4cc0bbb797e38448150a8df18a418870ea95d5c1d827b8274049fbc52"
+python-versions = "^3.5"
+
+[metadata.hashes]
+mss = ["8bfd797f65382fb044827610e0167e1bddf046149ce268db3c7ea65a294937fc", "db8138cff2e963ad1c27bb81e7550b116019fa6bf128f55380d11c432ec77dfc"]
+numpy = ["1980f8d84548d74921685f68096911585fee393975f53797614b34d4f409b6da", "22752cd809272671b273bb86df0f505f505a12368a3a5fc0aa811c7ece4dfd5c", "23cc40313036cffd5d1873ef3ce2e949bdee0646c5d6f375bf7ee4f368db2511", "2b0b118ff547fecabc247a2668f48f48b3b1f7d63676ebc5be7352a5fd9e85a5", "3a0bd1edf64f6a911427b608a894111f9fcdb25284f724016f34a84c9a3a6ea9", "3f25f6c7b0d000017e5ac55977a3999b0b1a74491eacb3c1aa716f0e01f6dcd1", "4061c79ac2230594a7419151028e808239450e676c39e58302ad296232e3c2e8", "560ceaa24f971ab37dede7ba030fc5d8fa173305d94365f814d9523ffd5d5916", "62be044cd58da2a947b7e7b2252a10b42920df9520fc3d39f5c4c70d5460b8ba", "6c692e3879dde0b67a9dc78f9bfb6f61c666b4562fd8619632d7043fb5b691b0", "6f65e37b5a331df950ef6ff03bd4136b3c0bbcf44d4b8e99135d68a537711b5a", "7a78cc4ddb253a55971115f8320a7ce28fd23a065fc33166d601f51760eecfa9", "80a41edf64a3626e729a62df7dd278474fc1726836552b67a8c6396fd7e86760", "893f4d75255f25a7b8516feb5766c6b63c54780323b9bd4bc51cdd7efc943c73", "972ea92f9c1b54cc1c1a3d8508e326c0114aaf0f34996772a30f3f52b73b942f", "9f1d4865436f794accdabadc57a8395bd3faa755449b4f65b88b7df65ae05f89", "9f4cd7832b35e736b739be03b55875706c8c3e5fe334a06210f1a61e5c2c8ca5", "adab43bf657488300d3aeeb8030d7f024fcc86e3a9b8848741ea2ea903e56610", "bd2834d496ba9b1bdda3a6cf3de4dc0d4a0e7be306335940402ec95132ad063d", "d20c0360940f30003a23c0adae2fe50a0a04f3e48dc05c298493b51fd6280197", "d3b3ed87061d2314ff3659bb73896e622252da52558f2380f12c421fbdee3d89", "dc235bf29a406dfda5790d01b998a1c01d7d37f449128c0b1b7d1c89a84fae8b", "fb3c83554f39f48f3fa3123b9c24aecf681b1c289f9334f8215c1d3c8e2f6e5b"]
+opencv-python = ["01ed8f83c1bc804995120825c729af9926bcc1dedbe85316ba4b5f81ed5e7287", "4d79b43434bef9ccb9921138d00c7f7d5dc8079cffe5d3765287e5b8275e0386", "51b32439bd85dcc3f520ef9de777f2c694b846d1d4344321e7bf090bffa62dc3", "55b8bd89a176cb0819b65d9df65900a6e4e95919579dedc34e10eaaf46c0f6a2", "5b6afc7f74e28c09f78886f0cffa67efc2b46542e439f0a045020a954c69e829", "6f8ec97c537b408d99d2cfbc9e929054e0bdecadda4c224ec2b21e18fcf48a06", "70012caadf2018575f15330bcf1d7659d0231580de5c146178154e420e9bef66", "7066dbceb01bd721515a583cc64485c594293a574d6b0925aca341c2accae520", "81cc092cade08093eeb48f2cdf8c1a1d5e0cc90d197403a721f6935f71d75e61", "8ecf3e50d7c5de510b71f5af33017a99b8bd476fbb70f464f6cc76a81bd2ff60", "97d2d77e0955404cf61d9a62e85bd8718108b11fc5a69d542bd7a7e2eb30990d", "98f12aff879895de6821289d538322d6b6d297ccfb71343056f3443f6d5c8c16", "9acea43d03440e7a0bd9a9ad599394382a529d49ec6995414797645acfc3e629", "a2e1bd69324e6d58b2c6932ca78c2ecb88dec8b2a3d31536e104623cafbc5b89", "a4feed61a55263a3af6bd17338a1712274c9dc775fe765ed706c706ab4a09ceb", "a72224ba58c7704ce8fc260ca65cfe7444d165362179f97d713234adc7f52b0e", "ae6f1aaa64d3b9a82792669e5be04d2544ce8c2e4a71ecfac09e0a4ed7b60908", "bfd358891a882cb08733e7edd1e76ea008520858de60cec185dce26530c0a36f", "c0d515ceb8231fa6565112d8c2490d2007656b7eb0c52d82b81708ac8412e426", "c86b42f12c602f815062f30c8583da702691a67920f5ea7607f1c796e6f153be", "d3c116b9502c657456fac22b3dad3be8701ef92f7ced2822a13121d167263057", "d477594c956dfbe6688323a9a06d5b3c6d3940c4b15bef7ce4f30d25f7837f1a", "d7626191eac985db4fda1db9cafb6428be614dd9ce3b6f5a83fdb93f1086980b", "db5632dfec289e69bddccbc39faf3cf1f5a840ed4ba3c1288ef3e21f68077722", "e50c73547a3e80d986db19b2cad3507bc7a5b4236f0071952aba80e0409c4806", "edbdded658021747a4235f178b91361d17b82031859db20731a963b8dafcab67", "f4afa2fd9d5c2ac25fc023babf6967f07e9143ce4fe73ebdcdc69a580f99b052"]
+pillow = ["01a501be4ae05fd714d269cb9c9f145518e58e73faa3f140ddb67fae0c2607b1", "051de330a06c99d6f84bcf582960487835bcae3fc99365185dc2d4f65a390c0e", "07c35919f983c2c593498edcc126ad3a94154184899297cc9d27a6587672cbaa", "0ae5289948c5e0a16574750021bd8be921c27d4e3527800dc9c2c1d2abc81bf7", "0b1efce03619cdbf8bcc61cfae81fcda59249a469f31c6735ea59badd4a6f58a", "0cf0208500df8d0c3cad6383cd98a2d038b0678fd4f777a8f7e442c5faeee81d", "163136e09bd1d6c6c6026b0a662976e86c58b932b964f255ff384ecc8c3cefa3", "18e912a6ccddf28defa196bd2021fe33600cbe5da1aa2f2e2c6df15f720b73d1", "24ec3dea52339a610d34401d2d53d0fb3c7fd08e34b20c95d2ad3973193591f1", "267f8e4c0a1d7e36e97c6a604f5b03ef58e2b81c1becb4fccecddcb37e063cc7", "3273a28734175feebbe4d0a4cde04d4ed20f620b9b506d26f44379d3c72304e1", "39fbd5d62167197318a0371b2a9c699ce261b6800bb493eadde2ba30d868fe8c", "4132c78200372045bb348fcad8d52518c8f5cfc077b1089949381ee4a61f1c6d", "4baab2d2da57b0d9d544a2ce0f461374dd90ccbcf723fe46689aff906d43a964", "4c678e23006798fc8b6f4cef2eaad267d53ff4c1779bd1af8725cc11b72a63f3", "4d4bc2e6bb6861103ea4655d6b6f67af8e5336e7216e20fff3e18ffa95d7a055", "505738076350a337c1740a31646e1de09a164c62c07db3b996abdc0f9d2e50cf", "5233664eadfa342c639b9b9977190d64ad7aca4edc51a966394d7e08e7f38a9f", "52e2e56fc3706d8791761a157115dc8391319720ad60cc32992350fda74b6be2", "5337ac3280312aa065ed0a8ec1e4b6142e9f15c31baed36b5cd964745853243f", "5ccd97e0f01f42b7e35907272f0f8ad2c3660a482d799a0c564c7d50e83604d4", "5d95cb9f6cced2628f3e4de7e795e98b2659dfcc7176ab4a01a8b48c2c2f488f", "634209852cc06c0c1243cc74f8fdc8f7444d866221de51125f7b696d775ec5ca", "75d1f20bd8072eff92c5f457c266a61619a02d03ece56544195c56d41a1a0522", "7eda4c737637af74bac4b23aa82ea6fbb19002552be85f0b89bc27e3a762d239", "801ddaa69659b36abf4694fed5aa9f61d1ecf2daaa6c92541bbbbb775d97b9fe", "825aa6d222ce2c2b90d34a0ea31914e141a85edefc07e17342f1d2fdf121c07c", "87fe838f9dac0597f05f2605c0700b1926f9390c95df6af45d83141e0c514bd9", "9c215442ff8249d41ff58700e91ef61d74f47dfd431a50253e1a1ca9436b0697", "a3d90022f2202bbb14da991f26ca7a30b7e4c62bf0f8bf9825603b22d7e87494", "a631fd36a9823638fe700d9225f9698fb59d049c942d322d4c09544dc2115356", "a6523a23a205be0fe664b6b8747a5c86d55da960d9586db039eec9f5c269c0e6", "a756ecf9f4b9b3ed49a680a649af45a8767ad038de39e6c030919c2f443eb000", "ac036b6a6bac7010c58e643d78c234c2f7dc8bb7e591bd8bc3555cf4b1527c28", "b117287a5bdc81f1bac891187275ec7e829e961b8032c9e5ff38b70fd036c78f", "ba04f57d1715ca5ff74bb7f8a818bf929a204b3b3c2c2826d1e1cc3b1c13398c", "ba6ef2bd62671c7fb9cdb3277414e87a5cd38b86721039ada1464f7452ad30b2", "c8939dba1a37960a502b1a030a4465c46dd2c2bca7adf05fa3af6bea594e720e", "cd878195166723f30865e05d87cbaf9421614501a4bd48792c5ed28f90fd36ca", "cee815cc62d136e96cf76771b9d3eb58e0777ec18ea50de5cfcede8a7c429aa8", "d1722b7aa4b40cf93ac3c80d3edd48bf93b9208241d166a14ad8e7a20ee1d4f3", "d7c1c06246b05529f9984435fc4fa5a545ea26606e7f450bdbe00c153f5aeaad", "db418635ea20528f247203bf131b40636f77c8209a045b89fa3badb89e1fcea0", "e1555d4fda1db8005de72acf2ded1af660febad09b4708430091159e8ae1963e", "e9c8066249c040efdda84793a2a669076f92a301ceabe69202446abb4c5c5ef9", "e9f13711780c981d6eadd6042af40e172548c54b06266a1aabda7de192db0838", "f0e3288b92ca5dbb1649bd00e80ef652a72b657dc94989fa9c348253d179054b", "f227d7e574d050ff3996049e086e1f18c7bd2d067ef24131e50a1d3fe5831fbc", "f62b1aeb5c2ced8babd4fbba9c74cbef9de309f5ed106184b12d9778a3971f15", "f71ff657e63a9b24cac254bb8c9bd3c89c7a1b5e00ee4b3997ca1c18100dac28", "fc9a12aad714af36cf3ad0275a96a733526571e52710319855628f476dcb144e"]
+pyautogui = ["1b57b1c8eeeff74bdbbe91162607ca7ac951e918b250072dcd3dd30c3f73da7c"]
+pygetwindow = ["e51e173f2ce8a6a9260fde7f0cf4d15df99ea0d622fad67a400f3e9d6a8a67f2"]
+pymsgbox = ["3888116a60812d01d44529c402014bf0896d2a9262617cb18faa9a7b3800ad4e"]
+pyrect = ["3b2fa7353ce32a11aa6b0a15495968d2a763423c8947ae248b92c037def4e202"]
+pyscreeze = ["9dfa4ff43d39538f12d4aa2ace446ede87f91a64b486cc819e5f72ba87aaa994"]
+python-xlib = ["204f280b549352af6cbdaff43405186822ae05749518dd9be209bd88a0088f99", "cdc806892f28fcd2c52e22a646c2ae3af3f0539cbbacfe7b344231d75eb96095"]
+pytweening = ["4b608a570f4dccf2201e898f643c2a12372eb1d71a3dbc7e778771b603ca248b"]
+six = ["3350809f0555b11f552448330d0b52d5f24c91a322ea4a15ef22629740f3761c", "d16a0141ec1a18405cd4ce8b4613101da75da0e9a7aec5bdd4fa804d0e0eba73"]

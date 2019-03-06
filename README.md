@@ -13,10 +13,14 @@ Write your pass in `pass.txt`:
 
     $ echo hunter2 > pass.txt
 
+Install [poetry](https://github.com/sdispater/poetry).
+
 Install the dependencies:
 
-    $ pipenv install
+    $ poetry install
 
 Run:
 
-    $ pipenv run python lol_pass.py
+    $ poetry run python lol_pass.py
+
+License is X11, read the file named `LICENSE`.
