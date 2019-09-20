@@ -16,7 +16,7 @@ def main():
     h, w = template.shape[:2]
 
     with mss() as sct:
-        for _ in range(10):
+        for _ in range(20):
             screen_bgra = np.array(sct.grab(sct.monitors[0]))
             screen = cv2.cvtColor(screen_bgra, cv2.COLOR_BGRA2BGR)
             result = cv2.matchTemplate(screen, template, cv2.TM_CCORR_NORMED)
@@ -35,6 +35,9 @@ def main():
             return
 
     pyautogui.click(x, y)
+    time.sleep(0.5)
+    pyautogui.click(x, y)
+    time.sleep(0.5)
     pyautogui.typewrite(pwd+'\n', interval=0.05)
 
 if __name__ == "__main__":
